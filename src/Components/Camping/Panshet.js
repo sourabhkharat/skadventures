@@ -54,6 +54,16 @@ const PanshetCamping = () => {
           { time: "11:30 am", activity: "Check Out with Sweet & Lovable Memories…!!!" },
         ],
       },
+      title: "New Year Party 2024 at Pawna Lake",
+    tagline: "Escape to Panshet Lake for a Perfect Getaway!",
+    description: `Escape to the peaceful beauty of Panshet Lake, just 50 km from Pune. Nestled in lush greenery and surrounded by hills, Panshet is the perfect spot to relax, unwind, and reconnect with nature. Enjoy cozy tents, delicious meals, and stunning views of the lake. Whether you're here for relaxation or adventure, Panshet Camping offers a memorable experience for friends, family, and couples alike. Book your stay today and experience the magic of Panshet!
+    `,
+    cost: {
+      child: "Free (0 to 5 years)",
+      childDiscounted: "50% of Adult price",
+      adult: "As Mentioned Above",
+      groupDiscount: "Special Group Discount available up to 20%",
+    },
       inclusions: {
         title:"Inclusions ✅",
         items:[

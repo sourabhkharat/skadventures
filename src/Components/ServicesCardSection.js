@@ -40,7 +40,7 @@ const ServicesCardSection = ({ cardsData }) => {
                     {/* Content section */}
                     <div className="p-4 sm:pl-6 flex flex-col justify-between w-full">
                       {/* Title of the card */}
-                      <h3 className="text-xl font-semibold text-gray-900">{card.title}</h3>
+                      <h3 className="text-xl font-semibold text-blue-700">{card.title}</h3>
                       {/* Description */}
                       <p className="text-sm text-gray-600 mt-2">{card.description}</p>
                       {/* Explore More button */}

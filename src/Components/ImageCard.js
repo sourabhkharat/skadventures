@@ -2,18 +2,22 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaBus, FaUtensils, FaMusic, FaFutbol } from 'react-icons/fa'; // Import bus and utensils icons for meal
 import { GiCampingTent} from 'react-icons/gi'; // Import tent icon
+import triangle4 from "../Images/pawana/TriangleStay/tlights.jpg"
+import tnt1 from "../Images/Panshet/TentStay/tnt1.jpg"
+
+
 
 
 const ImageCard = () => {
   const cardsData = [
     {
       title: "Pawana Camping",
-      image: "https://via.placeholder.com/500x300/FF5733/fff?text=Mountain+Adventure",
+      image: triangle4,
       path: "/pawana-camping",
     },
     {
       title: "Panshet Camping",
-      image: "https://via.placeholder.com/500x300/33C1FF/fff?text=Beach+Exploration",
+      image: tnt1,
       path: "/panshet-camping",
     },
     // {
@@ -48,12 +52,23 @@ const ImageCard = () => {
                 <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                   {/* Flexbox for vertical layout of image and content */}
                   <div className="flex flex-col">
-                    {/* Image section */}
+                    {/* Image section
                     <img
                       src={card.image}
                       alt={card.title}
                       className="w-full h-48 object-cover rounded-t-lg transition-transform duration-300 hover:scale-110"
-                    />
+                    /> */}
+                    {/* <div className="flex flex-col"> */}
+                    
+                    {/* Image section */}
+                    <div className="relative w-full h-48 sm:h-56 md:h-64">
+                      <img
+                        src={card.image}
+                        alt={card.title}
+                        className="absolute top-0 left-0 w-full h-full object-cover rounded-t-lg transition-transform duration-300 hover:scale-110"
+                      />
+                    </div>
+
                     <div className="p-4 flex flex-col justify-between h-48">
                       <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">{card.title}</h3>
 

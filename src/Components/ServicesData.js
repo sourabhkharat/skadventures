@@ -2,6 +2,9 @@ import React from 'react';
 import ServicesCardSection from './ServicesCardSection';
 import campinggirls from "../../src/Images/CampingGirls.jpg"
 // import resort from "../../src/Images/Resort.png"
+import camping1 from "../../src/Images/camping1.jpg"
+import cmn5 from "../../src/Images/pawana/cmn5.JPG"
+
 
 function ServicesData() {
   const cardsData = [
@@ -11,12 +14,18 @@ function ServicesData() {
       image: campinggirls,
       path: "/camping",
     },
-    // {
-    //   title: "Resorts and Villas",
-    //   description:"Surrounded by the serene beauty of lush landscapes and peaceful waters, Paawana Camping is the ideal place to escape into nature. The crisp air, the sound of chirping birds, and the gentle rustle of trees create an atmosphere of tranquility that will rejuvenate your mind, body, and soul.",
-    //   image: resort,
-    //   path: "/panshet-camping",
-    // },
+    {
+      title: "Pawana New year Camping 2025",
+      description:"Immerse yourself in the rhythm of our DJ system, witness a dazzling firecracker show, savor the joy of cake cutting, and treat your taste buds to delightful ice cream, Join us for a night of celebration under the stars, creating memories that will last a lifetime. Don’t miss the magic – reserve your spot now and welcome the New Year in style at Pawna Camping!",
+      image: cmn5,
+      path: "/nyc-pawana",
+    },
+    {
+      title: "Panshet New Year Camping 2025",
+      description:"Celebrate the arrival of 2025 in the serene beauty of Panshet Lake! Escape the chaos of city celebrations and welcome the New Year by a night of music, bonfires, delicious food, and exciting activities. Dance under the stars, make memories with friends and loved ones, and toast to new beginnings by the lakeside. Whether you’re relaxing by the campfire promises an unforgettable New Year’s Eve experience.",
+      image: camping1,
+      path: "/nyc-panshet",
+    },
     // {
     //   title: "Tour Packages",
     //   description:"Nothing",

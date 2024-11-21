@@ -4,12 +4,14 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import logo from "../Images/SK_BLU.svg";
+
 
 const navigation = [
   { name: "Home", path: "/" },
   { name: "Services", path: "/services" },
   { name: "Camps", path: "/camping" },
-  { name: "Rentals", path: "/rentals" },
+  // { name: "Rentals", path: "/rentals" },
   { name: "Gallery", path: "/gallery" },
   // { name: "About Us", path: "/about-us" },
   // { name: "Contact Us", path: "/contact-us" },
@@ -37,7 +39,7 @@ export function NavBar() {
             <span className="sr-only">SKAdventures</span>
             <img
               alt="logo"
-              src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+              src={logo}
               className="h-8 w-auto"
             />
           </button>
@@ -89,10 +91,10 @@ export function NavBar() {
         <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">SKAdventures</span>
               <img
-                alt=""
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                alt="logo"
+                src={logo}
                 className="h-8 w-auto"
               />
             </a>

@@ -65,6 +65,19 @@ const PawanaCamping = () => {
           },
         ],
       },
+      title: "New Year Party 2024 at Pawna Lake",
+    tagline: "Book Your Pawna Lake Camping Experience!",
+    description: `
+      If you're looking for an unforgettable weekend getaway, look no further than Pawna Lake Camping. It’s the perfect spot to reconnect with nature, recharge your mind, and make lasting memories with friends, family, or that special someone.
+
+Whether it's the peaceful vibes, the thrilling adventures, or the chance to disconnect from the everyday grind, Pawna Lake has it all. So why wait? Pack your bags, bring your loved ones, and book your stay today!
+    `,
+    cost: {
+      child: "Free (0 to 5 years)",
+      childDiscounted: "50% of Adult price",
+      adult: "As Mentioned Above",
+      groupDiscount: "Special Group Discount available up to 20%",
+    },
       inclusions: {
         title:"Inclusions ✅",
         items:[

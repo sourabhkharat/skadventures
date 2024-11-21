@@ -13,6 +13,8 @@ import ContactChatIcon from "./Components/HomePage/ContactChatIcon";
 import ServicesData from "./Components/ServicesData";
 import ImageCard from "./Components/ImageCard";
 import ImageCardsWithverticalView from "./Components/PackageInfo/ImageCardsWithverticalView"; 
+import PawanaNewYearCamping from "./Components/Camping/NYC-Pawana";
+import PanshetNewYearCamping from "./Components/Camping/NYC-Panshet";
 
 
 
@@ -33,6 +35,10 @@ function App() {
         {/* <Route path="/contact-us" element={<ContactUs/>} /> */}
         <Route path="/camping" element={<ImageCard/>} />
         <Route path="/services" element={<ServicesData/>} />
+        <Route path="/nyc-pawana" element={<PawanaNewYearCamping/>} />
+        <Route path="/nyc-panshet" element={<PanshetNewYearCamping/>} />
+
+
         </Route>
       </Routes>
       <ScrollToTop/>
