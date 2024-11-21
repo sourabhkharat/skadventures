@@ -3,20 +3,20 @@ import React, { useEffect, useRef } from 'react';
 // Image Card component for rendering each card
 const ImageCard = ({ image, title }) => {
   return (
-    // <div className="w-full lg:w-1/4 sm:w-1/2 md:w-1/8 p-2 flex-shrink-0 rounded-lg overflow-hidden">
-    //   <img
-    //     src={image}
-    //     alt={title}
-    //     className="w-full h-44 object-cover rounded-lg"
-    //   />
-    // </div>
-    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2 flex-shrink-0 rounded-lg overflow-hidden">
-  <img
-    src={image}
-    alt={title}
-    className="w-full h-44 object-cover rounded-lg"
-  />
-</div>
+    <div className="w-full lg:w-1/4 sm:w-1/2 md:w-1/6 p-2 flex-shrink-0 rounded-lg overflow-hidden">
+      <img
+        src={image}
+        alt={title}
+        className="w-full h-44 object-cover rounded-lg"
+      />
+    </div>
+//     <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2 flex-shrink-0 rounded-lg overflow-hidden">
+//   <img
+//     src={image}
+//     alt={title}
+//     className="w-full h-44 object-cover rounded-lg"
+//   />
+// </div>
 
   );
 };
