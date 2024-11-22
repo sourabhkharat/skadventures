@@ -43,9 +43,8 @@ const PanshetCamping = () => {
           { time: "04:30 pm to 06:00 pm", activity: "Games & Activities" },
           { time: "06:00 pm to 07:00 pm", activity: "Evening Tea with Snacks" },
           { time: "07:30 pm to 09:00 pm", activity: "BBQ (Veg & Non-Veg Limited)" },
-          { time: "07:00 pm to 10:00 am", activity: "Live DJ Music" },
+          { time: "08:00 pm to 10:00 am", activity: "Live DJ Music" },
           { time: "10:00 pm to 11:00 pm", activity: "Dinner (Veg & Non-Veg Unlimited)" },
-          { time: "12:00 am", activity: "Firecrackers show and Cake cutting" },
           { time: "12:00 am to 02:00 am", activity: "Live Guitar Music" },
         ],
         day2: [

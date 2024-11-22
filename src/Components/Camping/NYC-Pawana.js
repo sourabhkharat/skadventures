@@ -285,6 +285,7 @@ const PawanaNewYearCamping = () => {
               <a
                 href="https://wa.me/9011939191"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
                 Click Here to Send Screenshot to WhatsApp

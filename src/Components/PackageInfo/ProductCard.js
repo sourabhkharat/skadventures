@@ -26,7 +26,7 @@ const ProductCard = ({ title, images, price }) => {
         <img
           className="w-full h-full object-cover rounded-t-lg"
           src={images[currentIndex]}
-          alt={`Product Image ${currentIndex + 1}`}
+          alt={`Product ${currentIndex + 1}`}
         />
       </div>
       {/* Card Content */}

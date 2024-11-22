@@ -29,7 +29,8 @@ export default function HeroSection() {
             <div className="sm:mb-8 flex justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Join our channel now for exclusive updates on upcoming events{' '}
-                <a target='_blank'
+                <a target='_blank' 
+                  rel="noopener noreferrer"              
                   href="https://whatsapp.com/channel/0029VaCCrMF17EmxW5fwT21y"
                   className="font-semibold text-indigo-600"
                 >

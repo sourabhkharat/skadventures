@@ -144,7 +144,7 @@ const PackageInfo = ({ data }) => {
       To secure your reservation, kindly make a payment using the provided QR code.
     </li>
     <li className="mb-2 text-base sm:text-lg lg:text-xl">
-      After completing the payment, please share a screenshot of the transaction with us via WhatsApp for verification.<a href="https://wa.me/9011939191" target="_blank" className="text-blue-600 hover:underline">Click Here to Send Screenshot to WhatsApp</a>
+      After completing the payment, please share a screenshot of the transaction with us via WhatsApp for verification.<a href="https://wa.me/9011939191" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Click Here to Send Screenshot to WhatsApp</a>
     </li>
     <li className="mb-2 text-base sm:text-lg lg:text-xl">
       Upon confirmation of your payment, we will send you a confirmation message on WhatsApp along with a Google Form to gather additional details.

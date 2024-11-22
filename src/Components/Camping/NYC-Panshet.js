@@ -288,6 +288,7 @@ const PanshetNewYearCamping = () => {
               After completing the payment, please share a screenshot of the transaction with us via WhatsApp for verification.
               <a
                 href="https://wa.me/9011939191"
+                rel="noopener noreferrer"
                 target="_blank"
                 className="text-blue-600 hover:underline"
               >
