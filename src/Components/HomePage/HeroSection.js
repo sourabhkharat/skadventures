@@ -26,9 +26,9 @@ export default function HeroSection() {
             />
           </div>
           <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:py-12">
-            <div className="sm:mb-8 flex justify-center">
+            <div className="mb-6 sm:mb-8 flex justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                Join our channel now for exclusive updates on upcoming events{' '}
+                Join our channel now for updates on upcoming events{' '}
                 <a target='_blank' 
                   rel="noopener noreferrer"              
                   href="https://whatsapp.com/channel/0029VaCCrMF17EmxW5fwT21y"
@@ -39,6 +39,7 @@ export default function HeroSection() {
                 </a>
               </div>
             </div>
+            
             <div className="text-center">
               <h1 className="text-balance text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 Travelling is an Investment in Yourself!

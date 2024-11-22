@@ -7,12 +7,11 @@ import PawanaCamping from "./Components/Camping/Pawana";
 import ScrollToTop from "./Components/HomePage/ScrollToTop";
 import { Layout } from "./Components/Layout";
 import PanshetCamping from "./Components/Camping/Panshet";
-// // import ImageCarousel from "./Components/Camping/ImageCarousel";
+import ImageCarousel from "./Components/ImageCarousel";
 // import ContactUs from "./Components/ContactUs";
 import ContactChatIcon from "./Components/HomePage/ContactChatIcon";
 import ServicesData from "./Components/ServicesData";
 import ImageCard from "./Components/ImageCard";
-import ImageCardsWithverticalView from "./Components/PackageInfo/ImageCardsWithverticalView"; 
 import PawanaNewYearCamping from "./Components/Camping/NYC-Pawana";
 import PanshetNewYearCamping from "./Components/Camping/NYC-Panshet";
 
@@ -31,7 +30,7 @@ function App() {
         <Route path="/terms-conditions" element={<TermsCondition/>} />
         <Route path="/pawana-camping" element={<PawanaCamping/>} />
         <Route path="/panshet-camping" element={<PanshetCamping/>} />
-        <Route path="/gallery" element={<ImageCardsWithverticalView/>} />
+        <Route path="/gallery" element={<ImageCarousel/>} />
         {/* <Route path="/contact-us" element={<ContactUs/>} /> */}
         <Route path="/camping" element={<ImageCard/>} />
         <Route path="/services" element={<ServicesData/>} />

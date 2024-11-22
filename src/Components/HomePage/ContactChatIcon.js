@@ -3,8 +3,8 @@ import { FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 
 const ContactChatIcon = () => {
   // Define phone and WhatsApp numbers
-  const phoneNumber = "tel:+9011939191"; // Replace with your phone number
-  const whatsappNumber = "https://wa.me/1234567890"; // Replace with your WhatsApp link
+  const phoneNumber = "tel:+919011939191"; // Replace with your phone number
+  const whatsappNumber = "https://wa.me/message/XNOUEIARKVJIO1"; // Replace with your WhatsApp link
 
   return (
     <div className="fixed bottom-16 right-8 z-50 flex flex-col items-center space-y-1">

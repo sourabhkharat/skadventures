@@ -6,6 +6,9 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../Images/SK_BLU.svg";
 
+import mlogo from "../Images/SK_BLK_16x16.svg";
+
+
 
 const navigation = [
   { name: "Home", path: "/" },
@@ -94,7 +97,7 @@ export function NavBar() {
               <span className="sr-only">SKAdventures</span>
               <img
                 alt="logo"
-                src={logo}
+                src={mlogo}
                 className="h-8 w-auto"
               />
             </a>

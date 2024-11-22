@@ -34,8 +34,8 @@ export function FooterPart() {
             <div>
               <Footer.Title title="Stay Connected" />
               <Footer.LinkGroup col>
-                <Footer.Link onClick={() => navigate("/instagram")}>Instagram</Footer.Link>
-                <Footer.Link onClick={() => navigate("/youtube")}>YouTube</Footer.Link>
+              <Footer.Link href="https://www.youtube.com/@SK.Adventures" target="_blank" rel="noopener noreferrer">YouTube</Footer.Link>
+                <Footer.Link href="https://www.instagram.com/_skadventures" target="_blank" rel="noopener noreferrer">Instagram</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
@@ -49,16 +49,16 @@ export function FooterPart() {
         </div>
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="#" by="SKAdventures™" year={2024} />
+          <Footer.Copyright href="/" by="SKAdventures™" year={2024} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center rounded-full">
             <div className="duration-200 rounded-full transform hover:scale-110">
-              <Footer.Icon href="https://www.instagram.com/_skadventures" icon={BsInstagram} />
+              <Footer.Icon href="https://www.instagram.com/_skadventures" target="_blank" rel="noopener noreferrer" icon={BsInstagram} />
             </div>
             <div className="duration-200 rounded-full transform hover:scale-110">
-              <Footer.Icon href="https://www.youtube.com/@SK.Adventures" icon={BsYoutube} />
+              <Footer.Icon href="https://www.youtube.com/@SK.Adventures" target="_blank" rel="noopener noreferrer" icon={BsYoutube} />
             </div>
             <div className="duration-200 rounded-full transform hover:scale-110">
-              <Footer.Icon href="https://www.facebook.com/skadventures91" icon={BsFacebook} />
+              <Footer.Icon href="https://www.facebook.com/skadventures91" target="_blank" rel="noopener noreferrer" icon={BsFacebook} />
             </div>
             {/* <div className="duration-200 rounded-full transform hover:scale-110">
               <Footer.Icon href="#" icon={BsGithub} />

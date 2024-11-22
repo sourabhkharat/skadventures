@@ -22,10 +22,11 @@ import cmn5 from "../../../src/Images/pawana/cmn5.JPG"
 import cmn6 from "../../../src/Images/pawana/cmn6.JPG"
 import cmn7 from "../../../src/Images/pawana/cmn7.jpg"
 import cmn8 from "../../../src/Images/pawana/cmn8.jpg"
-// import cmn9 from "../../../src/Images/pawana/cmn9.jpg"
+import cmn9 from "../../../src/Images/pawana/cmn9.JPG"
 import cmn10 from "../../../src/Images/pawana/cmn10.jpg"
 import cmn11 from "../../../src/Images/pawana/cmn11.jpg"
 import cmn12 from "../../../src/Images/pawana/cmn12.JPG"
+import cmn13 from "../../../src/Images/pawana/cmn13.JPG"
 
 const PawanaCamping = () => {
   const [data, setData] = useState(null);
@@ -152,7 +153,9 @@ Whether it's the peaceful vibes, the thrilling adventures, or the chance to disc
         { title: 'Card 5', image: cmn5},
         { title: 'Card 7', image: cmn7 },
         { title: 'Card 8', image: cmn8 },
-        // { title: 'Card 9', image: cmn9 },
+        { title: 'Card 9', image: cmn9 },
+        { title: 'Card 9', image: cmn13 },
+
        
       ]
     };
@@ -165,7 +168,7 @@ Whether it's the peaceful vibes, the thrilling adventures, or the chance to disc
       {data ? (
         <PackageInfo data={data} />
       ) : (
-        <div className="text-red-600">Loading data...</div>
+        <div className="text-red-600"></div>
       )}
     </div>
   );
