@@ -2,8 +2,10 @@ import React from 'react';
 import ServicesCardSection from './ServicesCardSection';
 import campinggirls from "../../src/Images/CampingGirls.jpg"
 // import resort from "../../src/Images/Resort.png"
-import camping1 from "../../src/Images/camping1.jpg"
+// import camping1 from "../../src/Images/camping1.jpg"
 import cmn5 from "../../src/Images/pawana/cmn5.JPG"
+import nyc from "../../src/Images/nyc1.jpg"
+
 
 
 function ServicesData() {
@@ -23,7 +25,7 @@ function ServicesData() {
     {
       title: "Panshet New Year Camping 2025",
       description:"Celebrate the arrival of 2025 in the serene beauty of Panshet Lake! Escape the chaos of city celebrations and welcome the New Year by a night of music, bonfires, delicious food, and exciting activities. Dance under the stars, make memories with friends and loved ones, and toast to new beginnings by the lakeside. Whether you’re relaxing by the campfire promises an unforgettable New Year’s Eve experience.",
-      image: camping1,
+      image: nyc,
       path: "/nyc-panshet",
     },
     // {

@@ -35,6 +35,7 @@ const ProductCard = ({ title, images, price }) => {
         <h5 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white truncate">
           {title}
         </h5>
+        
         {/* Price Info */}
         <div className="flex items-center justify-between mt-2">
           <div>
