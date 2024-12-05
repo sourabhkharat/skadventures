@@ -16,10 +16,6 @@ const cancellationPolicyData = [
   },
   {
     condition: "Not Transferable",
-    description: "Event Tickets cannot be transferred to another date against cancellation."
-  },
-  {
-    condition: "Not Transferable",
     description: "Event Tickets cannot be transferred to another person against cancellation."
   },
   {
@@ -28,7 +24,7 @@ const cancellationPolicyData = [
   },
   {
     condition: "Same policy applies",
-    description: "If the event is canceled due to any natural calamity, political unrest, or other such reasons beyond our control."
+    description: "If the event is canceled due to any natural calamity, political unrest or other such reasons beyond our control."
   }
 ];
 

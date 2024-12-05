@@ -46,7 +46,7 @@ const PawanaCamping = () => {
           },
           {
             time: "11:00 pm to 12:00 am",
-            activity: "Live Guitar Music and bonfire",
+            activity: "Live Guitar Music and Bonfire",
           },
           { time: "12:00 am to 06:00 am", activity: "Silent zone" },
         ],

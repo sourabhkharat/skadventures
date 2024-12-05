@@ -5,7 +5,7 @@
 const termsData = [
   "We are not selling any kind of alcohol at our campsite. You can carry your own alcohol along with a proper 1-day permit issued from the liquor shop.",
   "Make sure not to consume excessive alcohol. If anyone is found disturbing others' privacy, that person will be immediately or forcefully removed from the campsite.",
-  "Boating and kayaking are not included in the package.",
+  "Boating and Kayaking are not included in the package.",
   "Once you set up your tent in the campsite, you can’t shift it.",
   "Please carry your medicines and other essential items.",
   "We are not responsible for any physical health or property loss.",
@@ -23,7 +23,7 @@ const notesData = [
   "BBQ and snacks are limited, so please don't ask for more as we have a limited supply.",
   "Consider bringing your power bank so you can enjoy more time with friends and family at the campsite, rather than waiting by the charging board.",
   "We provide blankets, but they might be thin. Since it’s winter, bringing your own blanket for extra warmth is a good idea.",
-  "Bring winter essentials such as sweaters, jackets, shawls, scarves, gloves, and socks for the cold weather.",
+  "Bring winter essentials such as sweaters, jackets, shawls, scarves, gloves and socks for the cold weather.",
   "Bring Odomos to protect yourself from mosquito bites. It’s a precautionary measure for your safety.",
   "Tissue papers will not be provided, so please remember to bring your own."
 ];
