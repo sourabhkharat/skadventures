@@ -154,10 +154,67 @@ Whether it's the peaceful vibes, the thrilling adventures, or the chance to disc
         { title: 'Card 7', image: cmn7 },
         { title: 'Card 8', image: cmn8 },
         { title: 'Card 9', image: cmn9 },
-        { title: 'Card 9', image: cmn13 },
+        { title: 'Card 9', image: cmn13 }      
+      ],
+      faq: [
+        {
+          question: "How to reach Pawna lake Camping?",
+          answer: "You can quickly drive to the campsite we provide parking space. Camping is well connected by the national highway a few hours drives from Mumbai, Pune, Lonavala. We’ll provide you with google maps directions after you complete the booking. People using public transport you can get down at Lonavala or Kamshet railway station. From here, jeeps are available on a private rental basis till Pawna Lake Pune. You can also hop on sharing vehicles from Kamshet to Pawna campsite."
+        },
+        {
+          question: "What is Pawna Camping?",
+          answer: "Pawna Camping is a popular outdoor adventure experience near Pawna Lake, where guests can enjoy camping, bonfires, BBQ, and various adventure activities like trekking and fishing. The site offers a beautiful view of the lake and surrounding hills."
+        },
+        {
+          question: "Where is Pawna Camping located?",
+          answer: "Pawna Camping is located in Lonavala, Maharashtra, India, around 20-25 kilometers from Lonavala city center. The exact location is near Pawna Lake, which is easily accessible by road from Mumbai, Pune, and other nearby areas."
+        },
+        {
+          question: "What should I bring for camping at Pawna?",
+          answer: "We provide the necessary camping equipment, such as tents, sleeping bags, and mattresses. However, it is recommended to bring comfortable clothing, a light jacket, personal toiletries, camera, and any medications you may need. Don't forget to bring your adventurous spirit!"
+        },
+        {
+          question: "Is food provided during the camping trip?",
+          answer: "Yes, food is provided during your stay at Pawna Camping. We serve freshly prepared meals including breakfast, lunch, and dinner. Vegetarian and non-vegetarian options are available. You can also enjoy a BBQ and snacks around the campfire."
+        },
+        {
+          question: "Are pets allowed at Pawna Camping?",
+          answer: "Yes, pets are welcome at Pawna Camping! We understand that pets are part of the family, and we encourage you to bring them along. Please ensure they are kept under control and cleaned up after."
+        },
+        {
+          question: "Can we go boating on Pawna Lake?",
+          answer: "Yes, boating is available at Pawna Lake. You can enjoy a peaceful boat ride with friends or family, surrounded by the natural beauty of the lake and hills. The boat rides are typically organized by local vendors, and you can inquire about the availability at the campsite."
+        },
+        {
+          question: "Is Pawna Camping safe for families and children?",
+          answer: "Yes, Pawna Camping is safe for families and children. The camping site is well-maintained and supervised by experienced staff. The adventure activities are designed to be fun and safe for people of all ages, but it's always a good idea to keep an eye on younger kids."
+        },
+        {
+          question: "How do I book a spot at Pawna Camping?",
+          answer: "You can easily book a spot at Pawna Camping through our website or by contacting us via phone or email. We recommend making a reservation in advance, especially on weekends and holidays, as the campsite tends to fill up quickly."
+        },
+        {
+          question: "What is the best time to visit Pawna Camping?",
+          answer: "The best time to visit Pawna Camping is between October and March when the weather is cool and pleasant. Monsoon (June to September) offers lush green landscapes, but the region experiences heavy rainfall during this period, which may affect certain activities."
+        },
+        {
+          question: "Do you provide transportation to the campsite?",
+          answer: "We do not provide transportation to Pawna Camping, but we can assist you with arranging transport from nearby cities like Mumbai or Pune. Alternatively, you can drive directly to the campsite in your own vehicle."
+        },
+        {
+          question: "Can I cancel my booking at Pawna Camping?",
+          answer: "Yes, you can cancel your booking, but please check our cancellation policy on the website. We typically offer a refund (minus a small cancellation fee) if you cancel within a specified period before your check-in date."
+        },
 
-       
-      ]
+        {
+          question: "What are the activities available at Pawna Lake Camping?",
+          answer: "Below are activities not included in the camping package; these are available near Pawna lake Camping: Paragliding at Pawna, Water sports at Pawna, Lohgad Fort Pune Trek, Visapur Fort Trek, Tung Fort Trek, Tikona Fort Trek, Kamshet Paragliding, Rajmachi fort Trek."
+        },
+        {
+          question: "Can we charge our phones and gadgets inside the tents?",
+          answer: "Electricity is available at Pawna Lake Camping, with limited slots. We recommend you carry your power bank. You can spend more time with your friends and family rather than standing next to the charging board."
+        },
+      ],
     };
 
     setData(fetchedData);

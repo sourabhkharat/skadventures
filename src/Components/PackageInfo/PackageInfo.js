@@ -2,6 +2,7 @@ import React from "react";
 import qrcode from "../../Images/qr-code.jpg";
 import camping from "../../Images/camping.jpg";
 import ProductCard from "./ProductCard";
+import FAQ from "../Camping/Faq";
 import ImageCardsWithVerticalView from "./ImageCardsWithverticalView";
 
 const PackageInfo = ({ data }) => {
@@ -141,7 +142,7 @@ const PackageInfo = ({ data }) => {
   </h2>
   <ol className="list-decimal list-inside text-gray-700 space-y-3">
     <li className="mb-2 text-base sm:text-lg lg:text-xl">
-      To secure your reservation, kindly make a payment using the provided QR code.
+      To secure your reservation, kindly make a payment using the provided QR code. Check name(Sourabh Kharat) 
     </li>
     <li className="mb-2 text-base sm:text-lg lg:text-xl">
       After completing the payment, please share a screenshot of the transaction with us via WhatsApp for verification.<a href="https://wa.me/9011939191" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Click Here to Send Screenshot to WhatsApp</a>
@@ -158,6 +159,24 @@ const PackageInfo = ({ data }) => {
     />
   </div>
 </div>
+
+{/* FAQ Section */}
+<div className="mb-8">
+      <h2 className="text-2xl font-semibold text-blue-600 mb-4 sm:text-3xl lg:text-4xl">
+        Frequently Asked Questions (FAQ's)
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-2 mb-12">
+        {/* Loop over the FAQ data and pass each faq item as props to the FAQ component */}
+        {data.faq?.map((faq, index) => (
+          <FAQ
+            key={index}
+            question={faq.question}
+            answer={faq.answer}
+            index={index}
+          />
+        ))}
+      </div>
+    </div>
 
 
         {/* Links Section */}

@@ -13,7 +13,7 @@ const BookingInstructions = () => {
       {/* Booking Instructions List */}
       <ol className="list-decimal list-inside text-gray-700 space-y-3">
         <li className="mb-2 text-base sm:text-lg lg:text-xl">
-          To secure your reservation, kindly make a payment using the provided QR code.
+          To secure your reservation, kindly make a payment using the provided QR code. Check name(Sourabh Kharat) 
         </li>
         <li className="mb-2 text-base sm:text-lg lg:text-xl">
           After completing the payment, please share a screenshot of the transaction with us via WhatsApp for verification.
