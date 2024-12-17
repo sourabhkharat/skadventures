@@ -1,0 +1,25 @@
+{
+  "short_name": "skadventures",
+  "name": "Travelling",
+  "icons": [
+    {
+      "src": "SK_BLK_16x16",
+      "sizes": "16x16",
+      "type": "image/svg"
+    },
+    {
+      "src": "SK_BLU",
+      "type": "image/svg",
+      "sizes": "32x32"
+    },
+    {
+      "src": "SK_BLK_16x16",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
